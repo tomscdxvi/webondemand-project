@@ -2,26 +2,153 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Web on Demand</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      <!-- Bootstrap Javascript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+      crossorigin="anonymous">
+      </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous">
+      </script>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous">
+      </script>
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="/css/style.css">
+
+      <title>Web on Demand</title>
 
     </head>
 
     <body>
 
-        <nav class="navbar navbar-inverse">
+      <!-- Nav Bar-->
 
-            <div class="container-fluid">
-         
-              <div class="navbar-header">
-         
-                <a class="navbar-brand" href="#">WebSiteName</a>
-         
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+
+      <a class="navbar-brand" href="#"><img src="/images/webondemand-image.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item active mr-3">
+                <a class="nav-link activelink" href="#">Home</a>
+              </li>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                <li class="nav-itemmr-3">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item dropdown mr-3">
+                  <a class="nav-link dropdown-toggle link-2" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">White-Label Reseller</a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Templates</a>
+                      <a class="dropdown-item" href="#">Become a Reseller</a>
+                      <a class="dropdown-item" href="#">Quick Start</a>
+                         <div class="dropdown-divider"></div>
+                    </div>
+
+                </li> 
+
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
               </div>
-        
+    </nav>
+
+      <section id="banner">
+        <h3>Boost Your Earnings By</h3>
+        <hr class="divider-2">
+        <h1>Selling White Label Websites</h1>
+
+        <hr class="divider-1">
+        <h2>We Build. You Sell.</h2>
+
+        <button class="btn btn--animation-from-right">
+          <span class="btn__text-static">I want a free demo ></span>
+          <div class="btn__text-dynamic">
+            <span class="btn__text-dynamic-inner">I want a free demo ></span>
+          </div>
+        </button>
+      </section>
+
+      <section id="article-1">
+        <div class="article-1-heading">
+          <div class="fill">
+            <h1>Grow your business</h1>
+          </div>
+
+          <h1>by</h1>
+
+          <div class="fill-2">
+            <h1>empowering others</h1>
+          </div>
+
+          <p>White-labeling means you can offer websites with Web on Demand’s 
+            <span class="highlight">white-label website builder</span>  
+          under your own brand (and they won’t even know we’re involved!). You don't need any coding or technical knowledge to become a
+            <span class="highlight">white-label reseller.</span>
+          Give your customers a <span class="highlight">website</span> platform that will grow with their business. As they grow, you grow.
+          </p>
+
+        </div>
+      </section>
+
+      <section id="article-2">
+        <div class="desc-heading">
+          <h1>Be your own boss</h1>
+        </div>
+          <p>Create your own brand and offer customers their own DIY website, or to have their website services managed for them (don’t worry, we’ll do the managing). 
+            Our flexible program lets you choose when you start, and when you stop. Set your own prices and watch the profits roll in.</p>
+
+          <button class="btn btn--animation-from-right">
+            <span class="btn__text-static">Start my own reselling business ></span>
+            <div class="btn__text-dynamic">
+              <span class="btn__text-dynamic-inner">Start my own reselling business ></span>
+            </div>
+          </button>
+      </section>
+
+      <section id="article-3">
+        <div class="article-3-1">
+            <h1>Hassle-free Setup</h1>
+
+            <p>We’ll setup your white-label website store in minutes! 
+              Choose a free domain name that reflects your brand (e.g. bestsites.com) or use your own and we’ll help make the store your own by adding the branding and the content you want.
+            </p>
+        </div>
+
+        <div class="article-3-2">
+          <h1>Amplify Your Earnings</h1>
+
+          <p>Earn commission on every website package purchased from your store. We do the web development work so sit back and relax, you’re done.</p>
+        </div>
+
+      </section>
+      
     </body>
 </html>
